@@ -1,12 +1,12 @@
-# 📚 Library Management SQL Project
+# Library Management SQL Project
 
-## 📌 Overview
+## Overview
 This project is a **MySQL-based Library Management System** designed to manage authors, books, borrowers, and transactions.  
 It demonstrates **database design, data insertion, and SQL queries** for real-world scenarios.
 
 ---
 
-## 🛠 Features
+## Features
 - **Relational Database Design** with primary & foreign keys
 - **CRUD Operations** for managing books, authors, and borrowers
 - Sample data for easy testing
@@ -17,7 +17,7 @@ It demonstrates **database design, data insertion, and SQL queries** for real-wo
 
 ---
 
-## 📂 Database Schema
+## Database Schema
 **Tables:**
 - `authors` → Author details
 - `books` → Book details linked to authors
@@ -25,9 +25,3 @@ It demonstrates **database design, data insertion, and SQL queries** for real-wo
 - `transactions` → Records of issued and returned books
 
 ---
-
-## 💻 How to Run
-1. Open MySQL terminal or MySQL Workbench.
-2. Run:
-   ```bash
-   SOURCE library_db.sql;
